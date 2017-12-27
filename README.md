@@ -1,4 +1,5 @@
-### Update Scripts
-## Scripts
-## Purpose
-## Format
+# Mission Statement
+## Update Scripts
+### Scripts
+### Purpose
+### Format
