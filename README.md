@@ -11,4 +11,4 @@ Collection of scripts to automate the update of Debian Based Linux systems.
     Script is designed to be saved withough the .sh extentension. This will allow the use of Anacron to schedule the tasking.
 
 2. AutoUpdate_CLI_Loggin
-    This is set up to be used as a command line script. This will be be a one stop script to update and clean up the old files.
+    Script is designed to be saved withough the .sh extentension. This will allow the use of Anacron to schedule the tasking. The additional aspect of this compaired to the first is the introduction of logging. The logging can be done either localy or remotely.

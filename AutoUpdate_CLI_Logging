@@ -3,17 +3,17 @@
 clear
 
 # Change the $HOSTNAME to your local $HOSTNAME.
+# Change path to log file to your correct path file.
 
 logfile=/var/log/$HOSTNAME-Update.log
 dt=$(date '+%d/%m/%Y %H:%M:%S')
 
 echo -e "\n\n$dt $USER $HOSTNAME Update" >> $logfile
-echo ""
-echo "Updating $HOSTNAME, Please wait."
-echo ""
+echo "" >> $logfile
 
-apt-get update -y | tee -a $logfile
-apt-get upgrade -y | tee -a $logfile
-apt-get dist-upgrade -y | tee -a $logfile
-apt-get autoremove -y | tee -a $logfile
-apt-get autoclean -y | tee -a $logfile
+
+apt-get update -y >> $logfile
+apt-get upgrade -y >> $logfile
+apt-get dist-upgrade -y >> $logfile
+apt-get autoremove -y >> $logfile
+apt-get autoclean -y >> $logfile
