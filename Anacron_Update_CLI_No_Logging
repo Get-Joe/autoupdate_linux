@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Comment out or remove what you dont want to use.
+
 set -e
 
 /usr/bin/apt-get -qy update > /dev/null
