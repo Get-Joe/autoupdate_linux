@@ -1,5 +1,10 @@
 # Mission Statement
 Collection of scripts to automate the update of Debian Based Linux systems.
+# WARNING
+USE AT YOUR OWN RISK.
+NO LIABILITY FOR DAMAGE.
+MAKE THE SCRIPT YOUR OWN.
+DONT TAKE RANDOM PERSON ON INTERNET'S WORD FOR IT.
 ## Scripts
 1. Anacron_Update_CLI_No_Logging
 2. AutoUpdate_CLI_Logging
